@@ -1,10 +1,18 @@
 {
-  "expo": {
-    "name": "instagram-picker",
-    "slug": "instagram-picker",
-    "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
-  }
+	"expo": {
+		"name": "instagram-picker",
+		"slug": "instagram-picker",
+		"version": "1.0.0",
+		"assetBundlePatterns": ["**/*"],
+		"plugins": [
+			[
+				"expo-media-library",
+				{
+					"photosPermission": "Allow $(PRODUCT_NAME) to access your photos.",
+					"savePhotosPermission": "Allow $(PRODUCT_NAME) to save photos.",
+					"isAccessMediaLocationEnabled": true
+				}
+			]
+		]
+	}
 }

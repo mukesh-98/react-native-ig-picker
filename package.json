@@ -9,12 +9,20 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/vector-icons": "^12.0.5",
     "expo": "~44.0.2",
+    "expo-media-library": "~14.0.0",
     "expo-splash-screen": "~0.14.1",
     "expo-status-bar": "~1.2.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-native": "0.64.3",
+    "react-native-color-matrix-image-filters": "^5.2.14",
+    "react-native-ig-image-picker": "^1.0.2",
+    "react-native-image-crop-picker": "^0.37.3",
+    "react-native-photo-browser": "^0.7.0",
+    "react-native-slider": "^0.11.0",
+    "react-native-snap-carousel": "^3.9.1",
     "react-native-web": "0.17.1"
   },
   "devDependencies": {
